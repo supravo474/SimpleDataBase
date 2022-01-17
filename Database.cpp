@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    // create your dictonary
+    
     map<string, string>dict = { {"Harry", "TreatPeopleWith"} };
     string username, password;
     cout<<"Enter username: "<<endl;
