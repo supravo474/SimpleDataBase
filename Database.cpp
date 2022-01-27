@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    // create your dictonary
+    // create your database
     map<string, string>dict = { 
     {"Harry", "TreatPeopleWithKindness"}, 
     {"Zain", "ICanDoThisForever"}, 
@@ -20,7 +20,7 @@ int main() {
     cin>>username;
     cout<<"Enter password: "<<endl;
     cin>>password;
-    // Check if provided username and password matches with the one in dictonary
+    // Check if provided username and password matches with the one in database
     if(dict.find(username) != dict.end() && dict[username] == password) {
         cout<<"Login Successfully!";
     } else {
