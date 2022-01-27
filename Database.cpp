@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     // create your dictonary
     map<string, string>dict = { 
-    {"Harry", "TreatPeopleWith"}, 
+    {"Harry", "TreatPeopleWithKindness"}, 
     {"Zain", "ICanDoThisForever"}, 
     {"Liam", "Remember"}, 
     {"Niall", "NiceToMeetYa"}, 
